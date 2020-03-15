@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Welcome to Flutter',
+        title: 'Welcome to Flutter prueba',
         theme: ThemeData(
 			primaryColor: Colors.white,
 		),
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class RandomWords extends StatefulWidget { 
+class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => new RandomWordsState();
 }
